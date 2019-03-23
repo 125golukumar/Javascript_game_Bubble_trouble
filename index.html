@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Yo yo game</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+      #gameScreen {
+        border: 1px solid black;
+        padding: 0;
+        margin: auto;
+        display: block;
+      }
+      #scoreScreen {
+        background-color: #a45b26;
+        border:4px solid black;
+        margin: auto;
+      }
+      #popup {
+    background: -webkit-linear-gradient(#4A7, #285);
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba( 0, 0, 0, .4 );
+    color: white;
+    display: none;
+    height: 32px;
+    font: bold 24px/32px 'Constantia';
+    left: 50%;
+    margin-left: -160px;
+    padding: 16px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    top: 234px;
+    width: 320px;
+}
+    </style>
+  </head>
+  <body background="src/images/bg_side.png">
+    <div id="popup"></div>
+    <canvas id="gameScreen" height="620" width="1200"></canvas>
+    <canvas id="scoreScreen" height="90" width="1500"></canvas>
+    <script src="src/bubble.js"></script>
+    <script src="src/Particle.js"></script>
+    <script src="src/global.js"></script>
+    <script src="src/Vector.js"></script>
+    <script src="src/paddle.js"></script>
+    <script  src="src/input.js"></script>
+    <script src="src/index.js"></script>
+    
+    
+
+  </body>
+</html>
